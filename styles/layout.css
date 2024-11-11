@@ -21,6 +21,7 @@ aside {
 
   & h1 {
     font-size: 2.5rem;
+    color: var(--color-pink);
     padding-top: 1rem;
     padding-bottom: 0.25rem;
   }

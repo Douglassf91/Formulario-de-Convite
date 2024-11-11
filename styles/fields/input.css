@@ -16,7 +16,7 @@ input, textarea, select {
 
 input {
   &:invalid {
-    border: 0.0625rem solid var(--danger);
+    border: 0.0625rem solid var(--color-danger);
   }
 }
 
@@ -33,7 +33,7 @@ textarea {
 
 input:focus,
 textarea:focus {
-  outline: 0.125rem solid var(--brand-light);
+  outline: 0.125rem solid var(--color-brand-light);
   outline-offset: .1px;
 }
 
@@ -41,7 +41,7 @@ textarea:hover,
 input:hover,
 input:active,
 input:focus {
-    border: 1px solid var(--brand-light);
+    border: 1px solid var(--color-brand-light);
     outline: none;
     color: var(--text-heading);
 }
@@ -121,7 +121,7 @@ input[type="datetime-local"] {
       }
 
       & input:checked[type="checkbox"] {
-        background-color: var(--brand-light);
+        background-color: var(--color-brand-light);
       }
 
       & input:checked[type="checkbox"] ~ .text::before {
@@ -148,7 +148,7 @@ input[type="datetime-local"] {
         background-color: var(--shape-button);
         border-radius: .5rem;
         color: var(--text-heading);
-        font: var(--body-sm);
+        font: var(--text-sm);
         font-weight: 500;
         margin-right: .75rem;
         cursor: pointer;
@@ -177,6 +177,6 @@ input[type="datetime-local"] {
     gap: 0.5rem;
   
     font: var(--text-xs);
-    color: var(--danger);
+    color: var(--color-danger);
   }
 }
